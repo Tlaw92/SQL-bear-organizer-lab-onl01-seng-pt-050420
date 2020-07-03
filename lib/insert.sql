@@ -15,3 +15,6 @@
 -- sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES (null,1, "Male", "Brown","Friendly",0);
 
 
+
+
+
