@@ -2,7 +2,7 @@ sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_i
 
 sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES ("Rowdy", 2, "Male", "Brown","Friendly", 1,1);
 
-sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES ("Tabitha", 3, "female", "Black","Bratty", 1,1);
+sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES ("Tabitha", 3, "female", "Black","Mean", 1,1);
 
 sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES ("Sergeant Brown", 4, "Male", "Brown","Mean", 1,1);
 
