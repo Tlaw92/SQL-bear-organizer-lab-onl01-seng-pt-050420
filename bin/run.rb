@@ -5,5 +5,10 @@ sql_runner = SQLRunner.new(db)
 
 sql_runner.execute_sql_file
 
-CREATE TABLE (
-  )
+CREATE TABLE bears (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    age INTEGER,
+    gender TEXT,
+    color INTEGER
+);
