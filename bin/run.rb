@@ -6,7 +6,7 @@ sql_runner = SQLRunner.new(db)
 sql_runner.execute_sql_file
 
 CREATE TABLE bears (
-    id INTEGER PRIMARY KEY,
+    id INTEGER,
     name TEXT,
     age INTEGER,
     gender TEXT,
