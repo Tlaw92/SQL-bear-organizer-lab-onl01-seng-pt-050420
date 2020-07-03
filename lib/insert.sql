@@ -1,9 +1,17 @@
 sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES ("Mr, Chocolate", 1, "Male", "Brown","Friendly", 1,1);
 
-sqlite> INSERT INTO cats (name, age, breed, owner_id) VALUES ("Hana", 1 , "Tabby", 1);
+sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES ("Rowdy", 2, "Male", "Brown","Friendly", 1,1);
 
-sqlite> INSERT INTO cats (name, age, breed) VALUES ("Lil\' Bub", 5, "American Shorthair");
+sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES ("Tabitha", 3, "female", "Black","Bratty", 1,1);
 
-sqlite> INSERT INTO cats (name, age, breed) VALUES ("Moe", 10, "Tabby");
+sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES ("Sergeant Brown", 4, "Male", "Brown","Mean", 1,1);
 
-sqlite> INSERT INTO cats (name, age, breed) VALUES ("Patches", 2, "Calico");
+sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES ("Melissa", 5, "Female", "Black","Friendly", 1,1);
+
+sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES ("Grinch", 6, "Male", "Brown","Friendly", 1,1);
+
+sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES ("Wendy", 7, "Female", "Black","Friendly", 1,1);
+
+sqlite> INSERT INTO bears (name, age, gender, color, temperament, alive, owner_id) VALUES (null, 1, "Male", "Brown","Friendly", 1,0);
+
+
